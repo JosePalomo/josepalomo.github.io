@@ -1,25 +1,76 @@
 body{
   margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 h1{
-  margin:0;
+  margin-top: 0;
+  font-size:
+  font-family: 'Sacramento', cursive;
+}
+h2,h3{
+  font-family: 'Montserrat', sans-serif;
 }
 
+a{
+  display: block;
+}
+a:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  color: white;
+}
+nav{
+
+  background-color: #34495e;
+  opacity: 0.8;
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+}
+nav ul li{
+
+  margin: 20px 10px 0 10px;
+  display: inline-block;
+
+}
 /*******************CLASS SELECTORS***********************************/
-.topContainer{
 
-    background-color: #e9e4e6;
-    height:200px;
-    width:200px;
+.top-Container{
+    position: relative;
+    background-color: #F5F5F5;
+    padding-top: 100px;
+    background-image: url('https://media.giphy.com/media/GFXNdR1tuMopi/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.middleContainer{
-  height: 200px;
-  width: 200px;
-  background-color:red;
-}
-.bottomContainer{
-    height: 200px;
-    width:200px;
-    background-color: blue;
+.middle-Container{
 
+}
+.bottom-Container{
+
+
+}
+.top-cloud{
+  height: 100px;
+  position: absolute;
+  right: 300px;
+  top:50px;
+
+}
+.bottom-cloud{
+  height: 100px;
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+.Mountain{
+  opacity: .5;
+
+}
+.java{
+  height:200px;
 }
